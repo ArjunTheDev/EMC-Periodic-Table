@@ -1,0 +1,17 @@
+export const elementCategoryColorCombination = {
+    "diatomic nonmetal": "bg-red-200",
+    "noble gas": "bg-cyan-200",
+    "alkali metal": "bg-orange-200",
+    "alkaline earth metal": "bg-amber-200",
+    "metalloid": "bg-yellow-200	",
+    "polyatomic nonmetal": "bg-lime-200",
+    "post-transition metal": "bg-green-200",
+    "transition metal": "bg-emerald-200",
+    "lanthanide": "bg-purple-200",
+    "actinide": "bg-fuchsia-200",
+    "unknown, probably transition metal": "bg-emerald-200",
+    "unknown, probably post-transition metal": "bg-green-200",
+    "unknown, probably metalloid": "bg-yellow-200",
+    "unknown, predicted to be noble gas": "bg-cyan-200",
+    "unknown, but predicted to be an alkali metal": "bg-orange-200",
+}
