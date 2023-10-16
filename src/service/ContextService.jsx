@@ -5,7 +5,7 @@ export const PeriodicTableContext = createContext();
 const PeriodicTableContextProvider = (props) => {
     const [contextData, setContextData] = useState([])
 
-    const updateContextData = (newData) => {
+    const updateContextData = (newData) => {    
         setContextData(newData)
     }
 
