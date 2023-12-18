@@ -1,6 +1,6 @@
-import { createContext, useState } from "react";
+import { createContext, useState } from 'react'
 
-export const PeriodicTableContext = createContext();
+export const PeriodicTableContext = createContext()
 
 const PeriodicTableContextProvider = (props) => {
     const [contextData, setContextData] = useState([])
@@ -13,7 +13,7 @@ const PeriodicTableContextProvider = (props) => {
         <PeriodicTableContext.Provider value={{contextData, updateContextData}}>
             {props.children}
         </PeriodicTableContext.Provider>
-    );
+    )
 }
 
-export default PeriodicTableContextProvider;
+export default PeriodicTableContextProvider
